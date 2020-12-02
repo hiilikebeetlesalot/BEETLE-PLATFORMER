@@ -133,7 +133,7 @@ mySprite.setPosition(18, 91)
 scene.cameraFollowSprite(mySprite)
 let tile_list = 0
 forever(function () {
-    if (controller.A.isPressed()) {
+    if (controller.A.isPressed() || true) {
         mySprite.setVelocity(0, 350)
     }
 })
