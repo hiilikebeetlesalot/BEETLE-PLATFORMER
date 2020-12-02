@@ -152,7 +152,9 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherS
             music.playMelody("F E C D F B C5 A ", 120)
             music.playMelody("C D C5 G F D C5 A ", 120)
         } else {
-        	
+            DA_TREE_NUMBER += 1
+            mySprite.setPosition(11, 99)
+            MAKE_DA_TREEEE()
         }
     }
 })
